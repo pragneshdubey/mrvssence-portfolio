@@ -119,7 +119,7 @@ export default function Hero({ onWatchShowreel }: HeroProps) {
               transition={{ duration: 0.7, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
               className="block text-paper overflow-visible"
             >
-              I TURN
+              LIVE THE MOMENT
             </motion.span>
             <motion.span
               initial={{ opacity: 0, y: 30 }}
@@ -127,23 +127,15 @@ export default function Hero({ onWatchShowreel }: HeroProps) {
               transition={{ duration: 0.7, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
               className="block text-paper overflow-visible"
             >
-              RAW MOMENTS
+              WE WILL MAKE IT
             </motion.span>
             <motion.span
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.5, ease: [0.16, 1, 0.3, 1] }}
-              className="block text-paper overflow-visible"
-            >
-              INTO POWERFUL
-            </motion.span>
-            <motion.span
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.7, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
               className="block text-ember overflow-visible"
             >
-              STORIES.
+              UNFORGETTABLE
             </motion.span>
           </h1>
 

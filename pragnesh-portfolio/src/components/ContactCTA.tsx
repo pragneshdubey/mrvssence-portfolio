@@ -34,9 +34,11 @@ export default function ContactCTA() {
           transition={{ delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
           className="font-display text-5xl sm:text-6xl md:text-8xl uppercase leading-[0.95]"
         >
-          Have A Project
+          BOOK NOW AND MAKE
           <br />
-          In Mind?
+          YOUR MOMENT
+          <br />
+          <span className="text-ember">UNFORGETTABLE</span>
         </motion.h2>
 
         <motion.p

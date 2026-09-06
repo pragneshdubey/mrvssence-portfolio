@@ -25,9 +25,9 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: 'the-journey',
-    title: 'The Journey',
-    category: 'Cinematic Travel Film',
+    id: 'weddings',
+    title: 'WEDDINGS',
+    category: '01 — WEDDINGS',
     duration: '02:45',
     description:
       'A meditative travel film following a lone traveler through shifting landscapes — shot, graded and cut to feel unhurried and immersive.',
@@ -37,9 +37,9 @@ export const projects: Project[] = [
       'https://images.unsplash.com/photo-1500835556837-99ac94a94552?q=80&w=1200&auto=format&fit=crop',
   },
   {
-    id: 'live-fast',
-    title: 'Live Fast',
-    category: 'Bike Promo Reel',
+    id: 'events',
+    title: 'EVENTS',
+    category: '02 — EVENTS',
     duration: '00:32',
     description:
       'High-octane vertical reel built for retention — punchy cuts, speed-ramped action and sound design synced frame-to-beat.',
@@ -49,9 +49,9 @@ export const projects: Project[] = [
       'https://images.unsplash.com/photo-1558981806-ec527fa84c39?q=80&w=1200&auto=format&fit=crop',
   },
   {
-    id: 'portrait-retouch',
-    title: 'Portrait Retouch',
-    category: 'Photo Editing',
+    id: 'business',
+    title: 'BUSINESS',
+    category: '03 — BUSINESS',
     description:
       'Frequency-separation retouching and cinematic color grading on a fashion portrait series — clean, natural, editorial-ready.',
     video: '',
@@ -60,9 +60,9 @@ export const projects: Project[] = [
       'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1200&auto=format&fit=crop',
   },
   {
-    id: 'city-lights',
-    title: 'City Lights',
-    category: 'Urban Cinematic Reel',
+    id: 'cinematic',
+    title: 'CINEMATIC',
+    category: '04 — CINEMATIC',
     duration: '00:28',
     description:
       'A neon-soaked night-city montage — long exposures, drone passes and a moody grade that leans into contrast and color separation.',
@@ -72,9 +72,9 @@ export const projects: Project[] = [
       'https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=1200&auto=format&fit=crop',
   },
   {
-    id: 'wanderlust',
-    title: 'Wanderlust',
-    category: 'Travel Montage',
+    id: 'reels',
+    title: 'REELS',
+    category: '05 — REELS',
     duration: '01:15',
     description:
       'A sweeping mountains-and-coastline montage cut to a slow build — designed to feel expansive on a big screen.',
@@ -84,9 +84,9 @@ export const projects: Project[] = [
       'https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1200&auto=format&fit=crop',
   },
   {
-    id: 'timeless-elegance',
-    title: 'Timeless Elegance',
-    category: 'Product Promo',
+    id: 'editing',
+    title: 'EDITING',
+    category: '06 — EDITING',
     duration: '00:25',
     description:
       'Macro product cinematography for a luxury watch brand — controlled lighting, slow push-ins and a restrained, premium grade.',

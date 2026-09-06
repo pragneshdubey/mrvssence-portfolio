@@ -11,7 +11,7 @@ interface LoadingScreenProps {
 const TIMELINE_CLIPS = [
   {
     type: 'image',
-    src: 'https://images.unsplash.com/photo-1518173946687-a4c8a383392e?q=80&w=400&auto=format&fit=crop',
+    src: 'https://images.unsplash.com/photo-1500835556837-99ac94a94552?q=80&w=800&auto=format&fit=crop',
     flex: '1.2',
   },
   {
@@ -154,7 +154,7 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
               <span className="text-[#FF7A00]">&middot;</span>
               <span>REELS EDITOR</span>
               <span className="text-[#FF7A00]">&middot;</span>
-              <span>PHOTO EDITOR</span>
+              <span>CINEMATOGRAPHY</span>
             </motion.p>
 
             {/* ============================================================
@@ -324,7 +324,7 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
               className="flex flex-col items-center gap-2"
             >
               <p className="text-xs sm:text-sm text-[#AAAAAA] tracking-widest font-body italic">
-                &ldquo;TURNING IDEAS INTO VISUAL STORIES&rdquo;
+                &ldquo;TURNING MOMENTS INTO STORIES&rdquo;
               </p>
               <div className="w-8 h-0.5 bg-[#FF7A00]" />
             </motion.div>

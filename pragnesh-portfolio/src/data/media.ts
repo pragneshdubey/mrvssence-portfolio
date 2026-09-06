@@ -49,23 +49,23 @@ export const media = {
   } as VideoAsset,
 
   // Large cinematic portrait for the About section
-  aboutPortrait:
-    'https://images.unsplash.com/photo-1601233749202-95d04d5b3c00?q=80&w=1400&auto=format&fit=crop',
+  aboutPortrait: '/images/about-portrait.jpg',
 
   // Gradient fallback shown if BOTH video + poster fail (last resort)
   fallbackGradient: 'linear-gradient(135deg, #101010 0%, #050505 60%, #1a0d00 100%)',
 };
 
 export const socialLinks = {
-  instagram: 'https://instagram.com',
-  youtube: 'https://youtube.com',
+  instagram: 'https://www.instagram.com/mrvssence?stkn=MTlrc2tqeGx2ZXZqMw==',
+  youtube: 'https://youtube.com/@mrvssence?si=S-7T9JSfFXchVslA',
   vimeo: 'https://vimeo.com',
   behance: 'https://behance.net',
   linkedin: 'https://linkedin.com',
 };
 
 export const contactInfo = {
-  email: 'hello@mrvssence.com',
-  phone: '+91 98765 43210',
+  email: 'vs030848@gmail.com',
+  phone: '7039174016',
+  tel: 'tel:+917039174016',
   location: 'Mumbai, India',
 };

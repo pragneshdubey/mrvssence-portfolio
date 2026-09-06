@@ -59,14 +59,21 @@ export default function Navbar() {
         <div className="max-w-[1600px] mx-auto px-6 md:px-10 flex items-center justify-between">
           <button
             onClick={() => scrollTo('home')}
-            className="text-left group"
+            className="flex items-center gap-3 group text-left"
             aria-label="Scroll to top"
           >
-            <div className="font-display text-xl md:text-2xl tracking-wide leading-none uppercase">
-              Mr<span className="text-ember">Vssence</span>
-            </div>
-            <div className="eyebrow text-smoke text-[9px] mt-1 hidden sm:block tracking-widest">
-              VIDEO EDITOR &bull; REELS EDITOR &bull; PHOTO EDITOR
+            <img
+              src="/images/logo.png"
+              alt="MrVssence Logo"
+              className="h-10 md:h-12 w-auto object-contain rounded-full border border-ember/30 group-hover:border-ember transition-colors"
+            />
+            <div className="hidden sm:block">
+              <div className="font-display text-xl md:text-2xl tracking-wide leading-none uppercase">
+                Mr<span className="text-ember">Vssence</span>
+              </div>
+              <div className="eyebrow text-smoke text-[9px] mt-1 tracking-widest">
+                VIDEO EDITOR &bull; REELS EDITOR &bull; PHOTO EDITOR
+              </div>
             </div>
           </button>
 
